@@ -1,5 +1,5 @@
 
-var product1 = document.getElementById("product1")
+            var product1 = document.getElementById("product1")
             var qty1 = document.getElementById("qty1")
             var price1 = document.getElementById("price1")
 
