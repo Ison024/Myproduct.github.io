@@ -43,6 +43,21 @@
                     //carts.textContent += carts.value.toString() + "\n";
                     carts.textContent += order
             }
+            if (parseFloat(qty7.value) > 0){
+                    var order = qty7.value.toString() + ' pc/s x ' + price7.textContent + '------' + product7.textContent + '------ Php' + (parseFloat(qty7.value)*parseFloat(price7.textContent)) + '\n'
+                    //carts.textContent += carts.value.toString() + "\n";
+                    carts.textContent += order
+            }
+            if (parseFloat(qty8.value) > 0){
+                    var order = qty8.value.toString() + ' pc/s x ' + price8.textContent + '------' + product8.textContent + '------ Php' + (parseFloat(qty8.value)*parseFloat(price8.textContent)) + '\n'
+                    //carts.textContent += carts.value.toString() + "\n";
+                    carts.textContent += order
+            }
+            if (parseFloat(qty9.value) > 0){
+                    var order = qty9.value.toString() + ' pc/s x ' + price9.textContent + '------' + product9.textContent + '------ Php' + (parseFloat(qty9.value)*parseFloat(price9.textContent)) + '\n'
+                    //carts.textContent += carts.value.toString() + "\n";
+                    carts.textContent += order
+            }
             }
             qty1.addEventListener("keyup", addOrder);
             qty2.addEventListener("keyup", addOrder);
@@ -50,3 +65,6 @@
             qty4.addEventListener("keyup", addOrder);
             qty5.addEventListener("keyup", addOrder);
             qty6.addEventListener("keyup", addOrder);
+            qty7.addEventListener("keyup", addOrder);
+            qty8.addEventListener("keyup", addOrder);
+            qty9.addEventListener("keyup", addOrder);
