@@ -3,9 +3,9 @@
             var qty1 = document.getElementById("qty1")
             var price1 = document.getElementById("price1")
 
-            var product9 = document.getElementById("product9")
-            var qty9 = document.getElementById("qty9")
-            var price9 = document.getElementById("price9")
+            var product2 = document.getElementById("product2")
+            var qty2 = document.getElementById("qty2")
+            var price2 = document.getElementById("price2")
 
             var carts = document.getElementById("carts")
             var total = document.getElementById("total")
@@ -62,10 +62,4 @@
             }
             qty1.addEventListener("keyup", addOrder);
             qty2.addEventListener("keyup", addOrder);
-            qty3.addEventListener("keyup", addOrder);
-            qty4.addEventListener("keyup", addOrder);
-            qty5.addEventListener("keyup", addOrder);
-            qty6.addEventListener("keyup", addOrder);
-            qty7.addEventListener("keyup", addOrder);
-            qty8.addEventListener("keyup", addOrder);
-            qty9.addEventListener("keyup", addOrder);
+            
