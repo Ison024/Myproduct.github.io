@@ -3,9 +3,9 @@ var product1 = document.getElementById("product1")
             var qty1 = document.getElementById("qty1")
             var price1 = document.getElementById("price1")
 
-            var product2 = document.getElementById("product2")
-            var qty2 = document.getElementById("qty2")
-            var price2 = document.getElementById("price2")
+            var product9 = document.getElementById("product2")
+            var qty9 = document.getElementById("qty2")
+            var price9 = document.getElementById("price2")
 
             var carts = document.getElementById("carts")
             var total = document.getElementById("total")
@@ -57,10 +57,7 @@ var product1 = document.getElementById("product1")
                 if (parseFloat(qty9.value) > 0){
                     var order = qty9.value.toString() + ' pc/s x ' + price9.textContent + '------' + product9.textContent + '------ Php' + (parseFloat(qty9.value)*parseFloat(price9.textContent)) + '\n'
                     //carts.textContent += carts.value.toString() + "\n";
-                    carts.textContent += order
-                
-                
-                
+                    carts.textContent += order    
             }
             }
             qty1.addEventListener("keyup", addOrder);
@@ -72,5 +69,3 @@ var product1 = document.getElementById("product1")
             qty7.addEventListener("keyup", addOrder);
             qty8.addEventListener("keyup", addOrder);
             qty9.addEventListener("keyup", addOrder);
-            
-                            
